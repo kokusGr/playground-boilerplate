@@ -12,3 +12,7 @@ rules:
     - 2
     - never
   react/jsx-filename-extension: 0
+  # Eslint doesn't like webpack resolver :/
+  import/no-unresolved: 0
+  import/extensions: 0
+  import/no-extraneous-dependencies: 0
