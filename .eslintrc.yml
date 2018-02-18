@@ -4,8 +4,12 @@ env:
   browser: true
   es6: true
 
+plugins:
+  - flowtype
+
 extends:
   - airbnb
+  - plugin:flowtype/recommended
 
 rules:
   semi:
